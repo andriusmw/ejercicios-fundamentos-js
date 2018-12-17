@@ -5,7 +5,12 @@
 
 
 // Aquí tu código
+var obj = {
+    'a': 'b': true|false,
+    'a': 'c': ['0','number']
 
+
+}
 // Hasta aquí
 
 // TEST 1

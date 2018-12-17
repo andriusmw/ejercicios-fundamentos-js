@@ -8,7 +8,11 @@
 var ordenador = {
     "marca": "La pava",
     "tipo": "portátil",
-    'periféricos': 'touchPad',
+    'perifericos': ['0','touchPad'],
+    'almacenamiento': {
+        'discos': ['0','HDD'],
+        'maestro': 0,
+    }
 
 }
 

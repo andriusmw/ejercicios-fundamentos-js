@@ -5,7 +5,8 @@
 
 
 // Aquí tu código
-
+var arr = ['1','2'];
+}
 
 // Hasta aquí
 
