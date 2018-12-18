@@ -6,12 +6,18 @@
 
 // Ha de pasar los test adjuntados.
 
-let cuentaCaracteres = (texto) => {
     // Aquí tu código.  Desde aquí:
+    function cuentaCaracteres(x) {
+        if (typeof x === 'string') {
+            return Number(x.length); 
+        }else {
+            return 'Debo ser ejecutada con un string';
+        }
+    }
    
     
     // Hasta aquí.
-}
+
 
 
 let test = require('../test.js');

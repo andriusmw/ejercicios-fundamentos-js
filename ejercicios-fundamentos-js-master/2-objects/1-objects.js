@@ -10,7 +10,7 @@ var ordenador = {
     "tipo": "portátil",
     'perifericos': ['0','touchPad'],
     'almacenamiento': {
-        'discos': ['0','HDD'],
+        'discos': ['SSD','HDD'],
         'maestro': 0,
     }
 
@@ -56,7 +56,7 @@ if (ordenador.almacenamiento.maestro === 0) {
 } else {
     console.log('suspendes');
 }
-// TEST 7
+// TEST 7                             //esto es como poner 0, e indica la posición del array
 if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD') {
     console.log('apruebas');
     

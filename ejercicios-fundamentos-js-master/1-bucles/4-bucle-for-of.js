@@ -33,3 +33,16 @@ let gente = [{
         edad: 10
     },
 ]
+
+var array25Mas = [];
+
+//crea la var persona, y recorre el array gente y evalua si la propiedad edad de cada objeto de gente es mayor a 25
+//si es así hace el push en el array array25Mas.
+for (var persona of gente){
+    if (persona.edad > 25 ){
+    array25Mas.push(persona)
+    }
+ 
+}
+
+console.log(array25Mas)

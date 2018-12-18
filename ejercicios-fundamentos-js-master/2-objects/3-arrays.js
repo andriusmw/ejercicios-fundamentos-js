@@ -5,8 +5,12 @@
 
 
 // Aquí tu código
-var arr = ['1','2'];
-}
+var arr = [
+    {name : 'pepito', age: 25,},
+    {name: 'pepito', age : 20,},
+    {name : 'Juan' ,age: 19,},
+    ];
+
 
 // Hasta aquí
 

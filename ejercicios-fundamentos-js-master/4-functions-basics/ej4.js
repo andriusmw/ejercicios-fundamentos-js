@@ -8,13 +8,25 @@
 
 // Ha de pasar los test adjuntados.
 
-let ultimoCaracter = (texto) => {
+
     // Aquí tu código.  Desde aquí:
+    function ultimoCaracter(x) {
+        if (typeof x === 'string') {
+            if (x.length == 0 ) {
+                return 'Debo ser ejecutada con un string no vacío'
+
+            } else {
+                return x[x.length -1];
+            }
+        }else {
+            return 'Debo ser ejecutada con un string'
+        }
+    }
   
 
 
     // Hasta aquí.
-}
+
 
 
 let test = require('../test.js');

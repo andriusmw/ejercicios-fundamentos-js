@@ -5,12 +5,19 @@
 // devolver el string 'Debo ser ejecutada con un numero'
 
 // Ha de pasar los test adjuntados.
-let convierteString = (numero) => {
-    // Aquí tu código.  Desde aquí:
 
+    // Aquí tu código.  Desde aquí:
+    function convierteString(x) {
+        if (typeof x === 'number') {    
+           return String(x);
+        } else {
+            console.log('Debo ser ejecutada con un numero')
+            return 'Debo ser ejecutada con un numero';
+        }
+    }
     
     // Hasta aquí.
-}
+
 
 
 let test = require('../test.js');

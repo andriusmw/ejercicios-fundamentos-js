@@ -6,9 +6,13 @@
 
 // Aquí tu código
 var obj = {
-    'a': 'b': true|false,
-    'a': 'c': ['0','number']
-
+    'a' : {
+        'b' : true,
+        'c' : ['0', 3 ],
+        
+    },
+    'd' : 5,
+    'f' : 'aaaa',
 
 }
 // Hasta aquí
