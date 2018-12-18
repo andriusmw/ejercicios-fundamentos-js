@@ -33,3 +33,8 @@ let gente = [{
     },
 ]
 
+var result = gente.filter(function(x) {    
+    return x.nombre.length == 4;
+});
+
+console.log(result);
